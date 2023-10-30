@@ -4,10 +4,10 @@
             $size = $_POST["size"];
             echo '<table border="1">' . "\n";
             echo '<tbody>' . "\n";
-            for ($i = 1; $i <= $size; $i++)
+            for ($i = 0; $i <= $size; $i++)
             {
                 echo '<tr>' . "\n";
-                for ($j = 1; $j <= $size; $j++) 
+                for ($j = 0; $j <= $size; $j++) 
                 {
                     $val = $i * $j;
                     echo '<td>' . "\n";
