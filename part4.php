@@ -1,7 +1,7 @@
 <html>
     <body>
         <?php 
-            $size = $_GET["size"];
+            $size = $_POST["size"];
             echo '<table border="1">' . "\n";
             echo '<tbody>' . "\n";
             for ($i = 1; $i <= $size; $i++)
